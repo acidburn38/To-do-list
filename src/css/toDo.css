@@ -1,5 +1,6 @@
 body{
     background-color: #F5F5F5;
+    font-family: 'Courier New', Courier, monospace;
 }
 footer{
     background-color: rgb(228, 182, 255);
@@ -31,7 +32,9 @@ footer{
 .spinner{
     animation: spinner 1.5s linear infinite;
 }
-
+.bg-purple{
+    background-color: rgb(228, 182, 255);
+}
 @keyframes spinner {
     to {transform: rotate(360deg);}
 }
