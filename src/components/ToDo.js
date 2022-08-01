@@ -15,9 +15,9 @@ class ToDo extends React.Component{
 
     render(){
         return (
-            <li className={"list-group-item d-flex align-tiems-center " + (this.state.completed? 'bg-success': null)}>
+            <li className={"list-group-item d-flex align-tiems-center " + (this.state.completed? 'bg-secondary text-white': null)}>
                 {this.props.task.name}
-                <button className={"btn btn-sm ml-auto " + (this.state.completed? 'btn-success': 'btn-outline-success')} onClick={() => this.toggleCompleted()}>&#x2713;</button>
+                <button className={"btn btn-sm ml-auto " + (this.state.completed? 'btn-secondary': 'btn-outline-secondary')} onClick={() => this.toggleCompleted()}>&#x2713;</button>
             </li>
         )
     }
