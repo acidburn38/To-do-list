@@ -1,8 +1,5 @@
 body{
     background-color: #F5F5F5;
-    width: 70vw;
-    height: 100vh;
-    align-items: center;
 }
 .root{
     width: 80vw;
@@ -21,8 +18,8 @@ body{
 }
 #mainFooter{
     bottom: 0;
-    position: relative;
-    width: 70vw;
+    position: fixed;
+    width: 100%
 }
 .fetching{
     position: fixed;
